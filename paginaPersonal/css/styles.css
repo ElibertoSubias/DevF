@@ -1,0 +1,73 @@
+body {
+    box-sizing: 0;
+}
+html {
+    background-color: #f79459;
+}
+.quitar-style-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+nav li {
+    float: left;
+}
+nav li:hover {
+    background-color: #eedd3b;
+    border-radius: 15px;
+}
+nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+nav a:hover {
+    color: black !important;
+}
+.contenedor-section {
+    background-color: #eedd3b;
+    color: black;
+    padding: 5px 20px;
+    margin: 10px;
+    border-radius: 15px;
+}
+.contenedor-info {
+    display: inline-block;
+}
+.contenido-experiencia {
+    text-align: center;
+}
+.contenido-experiencia ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.contenido-experiencia a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+.contenido-experiencia img {
+    width: 100px;
+    border-radius: 5px;
+    border: white 2px solid;
+}
+.foto-perfil {
+    float: left;
+    width: 200px;
+    border-radius: 5px;
+    margin: 15px 15px 15px 0px;
+}
+footer {
+    text-align: center;
+}
+.contenido-contacto li {
+    float: left;
+    margin: 10px;
+}
