@@ -1,0 +1,15 @@
+* {
+    width: 100px;
+    hei
+}
+#section1 {
+    float: left;
+    background: red;
+}
+#section2 {
+    float: left;
+    background: blue;
+}
+#section3 {
+    float: right;
+}

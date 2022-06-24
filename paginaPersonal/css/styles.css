@@ -1,14 +1,29 @@
-body {
-    box-sizing: 0;
-}
 html {
     background-color: #f79459;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Raleway', sans-serif;
 }
 .quitar-style-ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
+}
+header {
+    position: fixed;
+    height: 60px;
+    width: 100%;
+    background: linear-gradient(#f69d3c, #f794590f);
+    top: 0;
+}
+main {
+    margin-top: 60px;
 }
 nav li {
     float: left;
@@ -36,6 +51,9 @@ nav a:hover {
 }
 .contenedor-info {
     display: inline-block;
+}
+.contenedor-info p{
+    margin-top: 15px;
 }
 .contenido-experiencia {
     text-align: center;
@@ -66,8 +84,33 @@ nav a:hover {
 }
 footer {
     text-align: center;
+    height: 100px;
+}
+footer p {
+    font-weight: bold;
+    margin-top: 80px;
+}
+.contenido-contacto {
+    text-align: center;
 }
 .contenido-contacto li {
     float: left;
     margin: 10px;
+}
+#proyectos {
+    text-align: center;
+}
+#proyectos li {
+    margin-top: 15px;
+}
+#proyectos img {
+    max-width: 400px;
+}
+.card {
+    display: inline-block;
+    width: 24%;
+}
+.card img {
+    width: 50px;
+    height: 50px;
 }

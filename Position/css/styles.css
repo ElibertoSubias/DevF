@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*
+div {
+    height: 150px;
+}
+
+#rojo {
+    background: red;
+    position: absolute;
+    right: 0;
+    z-index: -1;
+    top: 20px;
+}
+#azul {
+    background: blue;
+}
+#rosa {
+    background: pink;
+}*/
+.menu {
+    background: pink;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.card {
+    display: inline-block;
+    width: 200px;
+    background: purple;
+    height: 400px;
+    margin: 100px 50px;
+    position: relative;
+}
+.card h2 {
+    position: relative;
+    bottom: 0;
+    right: 50px;
+    top: 10px;
+}
+.btn {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}

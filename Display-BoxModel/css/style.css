@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.titulo {
+    display: inline-block;
+    border: 5px solid red;
+    /* padding: 50px 100px 150px 200px; */
+    width: 400px;
+    height: 200px;
+    margin-top: 50px;
+    padding-top: 50px;
+}

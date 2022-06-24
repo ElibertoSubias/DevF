@@ -1,0 +1,22 @@
+body {
+    background: url("https://www.intermundial.es/blog/wp-content/uploads/2017/02/donde-hacer-esqui-de-fondo.jpg");
+    background-size: cover;
+}
+p {
+    color:black;
+    font-size: 40px;
+    background-color: brown;
+}
+.clase-li {
+    color: hotpink;
+}
+.clase-li-2 {
+    font-weight: bold;
+}
+#primer-id {
+    background-color: blue;
+    color: white;
+}
+#elemento1 {
+    text-transform: uppercase;
+}

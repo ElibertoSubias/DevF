@@ -1,0 +1,39 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+.parrafos {
+    color: blue;
+}
+#parrafo1 {
+    color: green;
+    height: 200px;
+    background: url("https://fondosmil.com/fondo/12662.jpg");
+}
+p {
+    color: orange;
+}
+
+.mi-boton {
+    height: 80px;
+    width: 160px;
+}
+.mi-boton:hover {
+    background-color: orange;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+.mi-input {
+    display: block;
+    margin-top: 20px;
+    width: 200px;
+    height: 60px;
+}
+.mi-input:focus {
+    outline-color: red;
+    border-radius: 10px;
+    height: 40px;
+}
